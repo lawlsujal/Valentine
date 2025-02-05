@@ -48,7 +48,7 @@ button {
 .flower {
     position: absolute;
     width: 75px;
-    animation: fall 5s linear infinite;
+    animation: fall 3s linear infinite;
 }
 @keyframes fall {
     0% { transform: translateY(-100vh) rotate(0deg); }
