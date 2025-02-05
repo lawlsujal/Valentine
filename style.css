@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #4169E1; /* Royal Blue */
+    background-color: #4169E1; /* royal blue */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 .container {
-    background: #FF6F61; /* Gold to complement Royal Blue */
+    background: #FF6F61; /* peach */
     padding: 100px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -19,7 +19,7 @@ body {
     z-index: 10;
 }
 h1 {
-    color: #8B0000; /* Dark Red */
+    color: #8B0000; /* dark red */
 }
 .buttons {
     margin-top: 20px;
@@ -34,11 +34,11 @@ button {
     transition: 0.3s;
 }
 .yes {
-    background-color: #FF4500; /* Orange Red */
+    background-color: #FF4500; /* orange */
     color: white;
 }
 .yes:hover {
-    background-color: #B22222; /* Firebrick */
+    background-color: #B22222; /* firebrick */
 }
 .no {
     background-color: #444;
@@ -47,8 +47,8 @@ button {
 }
 .flower {
     position: absolute;
-    width: 50px;
-    animation: fall 3s linear infinite;
+    width: 75px;
+    animation: fall 5s linear infinite;
 }
 @keyframes fall {
     0% { transform: translateY(-100vh) rotate(0deg); }
