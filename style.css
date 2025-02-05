@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #4169E1; /* Royal Blue */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.container {
+    background: #FFD700; /* Gold to complement Royal Blue */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+}
+h1 {
+    color: #8B0000; /* Dark Red */
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.yes {
+    background-color: #FF4500; /* Orange Red */
+    color: white;
+}
+.yes:hover {
+    background-color: #B22222; /* Firebrick */
+}
+.no {
+    background-color: #444;
+    color: white;
+    position: absolute;
+}
+.flower {
+    position: absolute;
+    width: 50px;
+    animation: fall 3s linear infinite;
+}
+@keyframes fall {
+    0% { transform: translateY(-100vh) rotate(0deg); }
+    100% { transform: translateY(100vh) rotate(360deg); }
+}
